@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CubigoInject"
-  spec.version      = "1.2.1"
+  spec.version      = "1.2.2"
   spec.summary      = "A fork of Inject with Cocoapods support"
 
   spec.description  = <<-DESC
@@ -18,6 +18,6 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/Cubigo/Inject.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "Sources/Inject", "Sources/Inject/**/"
+  spec.source_files  = "Sources/Inject", "Sources/Inject/Integrations"
   spec.exclude_files = ""
 end
